@@ -5,9 +5,9 @@ name: Python application
 
 on:
   push:
-    branches: [ master ]
+    branches: [ development ]
   pull_request:
-    branches: [ master ]
+    branches: [ development ]
 
 jobs:
   build:
@@ -36,5 +36,4 @@ jobs:
         pytest
     - name: Generate coverage report
       run: |
-        coverage report -m
-    	
+        Run coverage report -m
