@@ -32,8 +32,8 @@ jobs:
         run: |
           pytest
       - name: Test with coverage
-      	run: |
-      	  coverage run -m pytest
+        run: |
+          coverage run -m pytest
       - name: Coverage report
-      	run: |
-      	  coverage report -m
+        run: |
+          coverage report -m
