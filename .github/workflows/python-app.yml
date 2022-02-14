@@ -36,7 +36,7 @@ jobs:
         pytest
     -name: Test with coverage
       run: |
-      	coverage run -m pytest postinumerot_test.py
+      	coverage run -m pytest
     - name: Generate coverage report
       run: |
         coverage report -m
